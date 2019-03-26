@@ -13,6 +13,7 @@
 		F70953EA224AB74C004D8D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70953E9224AB74C004D8D9D /* Assets.xcassets */; };
 		F70953ED224AB74C004D8D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70953EB224AB74C004D8D9D /* LaunchScreen.storyboard */; };
 		F70953F0224AB74C004D8D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70953EF224AB74C004D8D9D /* main.m */; };
+		F7FD1873224AB9DC00946AB0 /* DVMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD1872224AB9DC00946AB0 /* DVMCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		F70953EC224AB74C004D8D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F70953EE224AB74C004D8D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F70953EF224AB74C004D8D9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7FD1871224AB9DC00946AB0 /* DVMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCard.h; sourceTree = "<group>"; };
+		F7FD1872224AB9DC00946AB0 /* DVMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +70,18 @@
 				F70953EB224AB74C004D8D9D /* LaunchScreen.storyboard */,
 				F70953EE224AB74C004D8D9D /* Info.plist */,
 				F70953EF224AB74C004D8D9D /* main.m */,
+				F7FD1874224AB9E100946AB0 /* Models */,
 			);
 			path = "DeckOfOne-C";
+			sourceTree = "<group>";
+		};
+		F7FD1874224AB9E100946AB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD1871224AB9DC00946AB0 /* DVMCard.h */,
+				F7FD1872224AB9DC00946AB0 /* DVMCard.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70953E5224AB74B004D8D9D /* ViewController.m in Sources */,
+				F7FD1873224AB9DC00946AB0 /* DVMCard.m in Sources */,
 				F70953F0224AB74C004D8D9D /* main.m in Sources */,
 				F70953E2224AB74B004D8D9D /* AppDelegate.m in Sources */,
 			);
