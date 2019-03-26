@@ -10,4 +10,22 @@
 
 @implementation DVMCard
 
+- (instancetype)initWithsuit:(NSString *)suit imageURL:(NSString *)imageURL
+{
+    self = [super init];
+    if (self)
+    {
+        _suit = suit;
+        _imageURL = imageURL;
+    }
+    return self;
+}
+
+- (instancetype)initWithDictionary:(NSDictionary<NSString *,id> *)dictionary
+{
+    NSString *suit = dictionary[@"suit"];
+    NSString *imageURL = dictionary[@"image"];
+    return [self initWithsuit:suit imageURL:imageURL];
+}
+
 @end

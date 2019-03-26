@@ -17,6 +17,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(instancetype)initWithsuit:(NSString *)suit imageURL:(NSString *)imageURL;
 
+//We've got our properties above, and the initializer for them to create an instance of a Card. Now we need to have another initializer for a dictionary.
+
+-(instancetype)initWithDictionary:(NSDictionary<NSString *, id > *)dictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END
