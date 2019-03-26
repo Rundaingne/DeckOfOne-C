@@ -8,21 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F70953E2224AB74B004D8D9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70953E1224AB74B004D8D9D /* AppDelegate.m */; };
-		F70953E5224AB74B004D8D9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70953E4224AB74B004D8D9D /* ViewController.m */; };
 		F70953E8224AB74B004D8D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70953E6224AB74B004D8D9D /* Main.storyboard */; };
 		F70953EA224AB74C004D8D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70953E9224AB74C004D8D9D /* Assets.xcassets */; };
 		F70953ED224AB74C004D8D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70953EB224AB74C004D8D9D /* LaunchScreen.storyboard */; };
 		F70953F0224AB74C004D8D9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70953EF224AB74C004D8D9D /* main.m */; };
 		F7FD1873224AB9DC00946AB0 /* DVMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD1872224AB9DC00946AB0 /* DVMCard.m */; };
 		F7FD1877224ABD7500946AB0 /* DVMCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD1876224ABD7500946AB0 /* DVMCardController.m */; };
+		F7FD187E224AD0BC00946AB0 /* DVMCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7FD187D224AD0BC00946AB0 /* DVMCardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F70953DD224AB74B004D8D9D /* DeckOfOne-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DeckOfOne-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70953E0224AB74B004D8D9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F70953E1224AB74B004D8D9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F70953E3224AB74B004D8D9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F70953E4224AB74B004D8D9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F70953E7224AB74B004D8D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F70953E9224AB74C004D8D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F70953EC224AB74C004D8D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +30,8 @@
 		F7FD1872224AB9DC00946AB0 /* DVMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCard.m; sourceTree = "<group>"; };
 		F7FD1875224ABD7500946AB0 /* DVMCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCardController.h; sourceTree = "<group>"; };
 		F7FD1876224ABD7500946AB0 /* DVMCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCardController.m; sourceTree = "<group>"; };
+		F7FD187C224AD0BC00946AB0 /* DVMCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCardViewController.h; sourceTree = "<group>"; };
+		F7FD187D224AD0BC00946AB0 /* DVMCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCardViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +66,6 @@
 			children = (
 				F70953E0224AB74B004D8D9D /* AppDelegate.h */,
 				F70953E1224AB74B004D8D9D /* AppDelegate.m */,
-				F70953E3224AB74B004D8D9D /* ViewController.h */,
-				F70953E4224AB74B004D8D9D /* ViewController.m */,
 				F70953E6224AB74B004D8D9D /* Main.storyboard */,
 				F70953E9224AB74C004D8D9D /* Assets.xcassets */,
 				F70953EB224AB74C004D8D9D /* LaunchScreen.storyboard */,
@@ -75,6 +73,8 @@
 				F70953EF224AB74C004D8D9D /* main.m */,
 				F7FD1874224AB9E100946AB0 /* Models */,
 				F7FD1878224ABD7900946AB0 /* Model Controller */,
+				F7FD187C224AD0BC00946AB0 /* DVMCardViewController.h */,
+				F7FD187D224AD0BC00946AB0 /* DVMCardViewController.m */,
 			);
 			path = "DeckOfOne-C";
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F70953E5224AB74B004D8D9D /* ViewController.m in Sources */,
+				F7FD187E224AD0BC00946AB0 /* DVMCardViewController.m in Sources */,
 				F7FD1877224ABD7500946AB0 /* DVMCardController.m in Sources */,
 				F7FD1873224AB9DC00946AB0 /* DVMCard.m in Sources */,
 				F70953F0224AB74C004D8D9D /* main.m in Sources */,
